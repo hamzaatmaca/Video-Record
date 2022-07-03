@@ -1,0 +1,50 @@
+@charset 'utf-8';
+
+.videoSection{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem!important;
+}
+#startRecord{
+    width: 10rem;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.buttonSection{
+    flex-direction: row;
+    
+}
+#localVideo{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px grey;
+    background-image: url('../../assets/img/web-cam.ico');
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+    
+}
+.videoHeader{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.videoHeaderText{
+    font-size: 2rem;
+    font-size: 900;
+}
+.videoUser{
+    color:rgb(66, 152, 202);
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-right: 10px;
+}
